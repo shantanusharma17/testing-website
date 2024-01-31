@@ -16,11 +16,11 @@ const App = () => {
     <Router>
       <NavigationHeader />
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/properties" element={<PropertiesPage />} />
-        <Route path="/properties/:id" element={<ListingPage />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/testing-website" element={<HomePage />} />
+        <Route path="/testing-website/contact" element={<ContactPage />} />
+        <Route path="/testing-website/properties" element={<PropertiesPage />} />
+        <Route path="/testing-website/properties/:id" element={<ListingPage />} />
+        <Route path="/testing-website/login" element={<Login />} />
       </Routes>
     </Router>
   );

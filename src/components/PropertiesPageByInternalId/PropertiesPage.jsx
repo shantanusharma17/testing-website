@@ -15,7 +15,7 @@ const PropertiesPage = () => {
         {propertiesData.map((property) => (
           <div key={property.id} className="properties-grid__item-wrap">
             {/* Use the Link to pass property data in the state */}
-            <Link to={`/properties/${property.id}`} state={{ property }} className="properties-grid__item">
+            <Link to={`/testing-website/properties/${property.id}`} state={{ property }} className="properties-grid__item">
               <div className="properties-grid__img">
                 <span className="status-tile">{property.status}</span>
                 <img src={property.image} alt={property.name} />
