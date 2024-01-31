@@ -16,7 +16,7 @@ Contains static assets such as icons, images, and configuration files that are p
 Holds reusable React components, each responsible for a specific piece of UI or functionality within the application. Also contains their CSS styling files. 
 
 ### Data
-TContains data files used by the application. In this case, holds dummy data for properties, potentially used for testing or as placeholder content.
+Contains data files used by the application. In this case, holds dummy data for properties, potentially used for testing or as placeholder content.
 
 ### App.jsx 
 The main React component file, serving as the entry point for the application. It likely includes the overall structure of the app and coordinates the rendering of other components as well as routes definitions.
