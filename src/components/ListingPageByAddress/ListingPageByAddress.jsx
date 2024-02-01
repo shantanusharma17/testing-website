@@ -23,6 +23,7 @@ const ListingPage = () => {
         <p>Status: {property.status}</p>
         <p>Price: {property.price}</p>
         <p>Address: {property.address}</p>
+        <p>MLS ID: {property.mls_id || '-'}</p>
         <p>Amenities: {property.amenities}</p>
         {/* Add more details as needed */}
       </div>
