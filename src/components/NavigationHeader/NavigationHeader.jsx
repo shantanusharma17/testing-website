@@ -21,6 +21,9 @@ const NavigationHeader = () => {
           <NavLink to="/testing-website/properties-address" className="nav-link" activeClassName="active">
             Properties By Address
           </NavLink>
+          <NavLink to="/testing-website/properties-address-mls" className="nav-link" activeClassName="active">
+            Properties By Address + MLS
+          </NavLink>
         </div>
         <NavLink to="/testing-website/login" className="nav-link" activeClassName="active">
           Login
