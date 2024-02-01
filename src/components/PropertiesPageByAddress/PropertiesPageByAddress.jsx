@@ -7,7 +7,7 @@ import formatAddress from '../../utils/formatAddress';
 const PropertiesPage = () => {
   return (
     <div className="container">
-      <h2>Featured Properties</h2>
+      <h2>Featured Properties By Address</h2>
       <div className="properties-grid">
         {propertiesData.map((property) => (
           <div key={property.id} className="properties-grid__item-wrap">
