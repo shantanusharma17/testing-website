@@ -15,8 +15,11 @@ const NavigationHeader = () => {
           <NavLink to="/testing-website/contact" className="nav-link" activeClassName="active">
             Contact
           </NavLink>
-          <NavLink to="/testing-website/properties" className="nav-link" activeClassName="active">
+          <NavLink to="/testing-website/properties-id" className="nav-link" activeClassName="active">
             Properties By Internal ID
+          </NavLink>
+          <NavLink to="/testing-website/properties-address" className="nav-link" activeClassName="active">
+            Properties By Address
           </NavLink>
         </div>
         <NavLink to="/testing-website/login" className="nav-link" activeClassName="active">
