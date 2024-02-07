@@ -36,8 +36,7 @@ const HomePage = () => {
             Whether you're looking to buy, sell, or just explore the market, I'm here to guide you every step of the way.
           </p>
           <p>
-            <Link to="/contact" className="cta-link">Talk with me</Link> |{' '}
-            <Link to="/properties" className="cta-link">See my properties</Link>
+            <Link to="/testing-website/contact" className="cta-link">Talk with me</Link>
           </p>
         </div>
       </div>

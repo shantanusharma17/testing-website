@@ -12,20 +12,20 @@ const NavigationHeader = () => {
           Home
         </Link>
         <div className="nav-links">
-          <NavLink to="/testing-website/contact" className="nav-link" activeClassName="active">
+          <NavLink to="/testing-website/contact" className="nav-link" activeclassname="active">
             Contact
           </NavLink>
-          <NavLink to="/testing-website/properties-id" className="nav-link" activeClassName="active">
+          <NavLink to="/testing-website/properties-id" className="nav-link" activeclassname="active">
             Properties By Internal ID
           </NavLink>
-          <NavLink to="/testing-website/properties-address" className="nav-link" activeClassName="active">
+          <NavLink to="/testing-website/properties-address" className="nav-link" activeclassname="active">
             Properties By Address
           </NavLink>
-          <NavLink to="/testing-website/properties-address-mls" className="nav-link" activeClassName="active">
+          <NavLink to="/testing-website/properties-address-mls" className="nav-link" activeclassname="active">
             Properties By Address + MLS
           </NavLink>
         </div>
-        <NavLink to="/testing-website/login" className="nav-link" activeClassName="active">
+        <NavLink to="/testing-website/login" className="nav-link" activeclassname="active">
           Login
         </NavLink>
       </nav>
