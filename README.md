@@ -47,6 +47,6 @@ git push origin main
 npm run deploy -- -m "message"
 ```
 > [!NOTE]  
-> Behind the scenes, it creates a new branch called gh-pages, pushes the changes there and deploys them to the [hosted website](https://juanfarber-compass.github.io/testing-website/)
+> Behind the scenes, it creates a new branch called gh-pages, pushes the changes and deploys them to the [hosted website](https://juanfarber-compass.github.io/testing-website/)
 
 
