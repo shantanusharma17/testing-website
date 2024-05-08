@@ -14,7 +14,7 @@ const PropertiesPage = () => {
       <div className="properties-grid">
         {propertiesData.map((property) => (
           <div key={property.id} className="properties-grid__item-wrap">
-            <Link to={`/testing-website/properties-id/${property.id}`}
+            <Link to={`/testing-website/properties/${property.id}`}
               state={{ property }} 
               className="properties-grid__item">
               <div className="properties-grid__img"

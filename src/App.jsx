@@ -22,10 +22,13 @@ const App = () => {
       <Routes>
         <Route path="/testing-website" element={<HomePage />} />
         <Route path="/testing-website/contact" element={<ContactPage />} />
-        <Route path="/testing-website/properties-id" element={<PropertiesPageByInternalId />} />
-        <Route path="/testing-website/properties-id/:id" element={<ListingPageByInternalId />} />
-        <Route path="/testing-website/properties-address" element={<PropertiesPageByAddress />} />
-        <Route path="/testing-website/properties-address/:address" element={<ListingPageByAddress />} />
+
+        {/* currently /listings/ and /properties/ will trigger listing information collection */}
+        <Route path="/testing-website/properties" element={<PropertiesPageByInternalId />} />
+        <Route path="/testing-website/properties/:id" element={<ListingPageByInternalId />} />
+        <Route path="/testing-website/listings" element={<PropertiesPageByAddress />} />
+        <Route path="/testing-website/listings/:address" element={<ListingPageByAddress />} />
+
         <Route path="/testing-website/properties-address-mls" element={<PropertiesPageByAddressMls />} />
         <Route path="/testing-website/properties-address-mls/:addressmls" element={<ListingPageByAddressMls />} />
         <Route path="/testing-website/login" element={<Login />} />

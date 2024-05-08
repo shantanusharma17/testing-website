@@ -12,7 +12,7 @@ const PropertiesPage = () => {
         {propertiesData.map((property) => (
           <div key={property.id} className="properties-grid__item-wrap">
             <Link
-              to={`/testing-website/properties-address/${formatAddress(property.address)}`}
+              to={`/testing-website/listings/${formatAddress(property.address)}`}
               state={{ property }}
               className="properties-grid__item"
             >
